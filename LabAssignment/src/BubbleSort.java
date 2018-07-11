@@ -2,7 +2,6 @@
 public class BubbleSort {
 	private int data[];
 	
-	
 	public void sort(int[] arr )
 	{
 		 int n=arr.length;

@@ -11,7 +11,6 @@ public class Application {
 		 bSort.sort(arr);
 		 System.out.println("After sorting in ascending order");
 		 bSort.printArray(arr);
-		 
 		 BubbleSort.sort();
 	}
 
