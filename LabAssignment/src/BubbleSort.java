@@ -17,7 +17,7 @@ public class BubbleSort
 		{
 			return;
 		}
-		for (int i1 = 0; i1 < this.arr.length - 1; i1++) 
+		for (int i = 0; i < this.arr.length - 1; i++) 
 		{
 			for (int j = 0; j < this.arr.length - 1; j++) 
 			{
