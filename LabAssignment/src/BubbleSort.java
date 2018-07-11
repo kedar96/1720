@@ -2,6 +2,11 @@
 public class BubbleSort {
 	private int data[];
 	
+	public int[] getData() {
+		return data;
+	}
+
+
 	public void sort(int[] arr )
 	{
 		 int n=arr.length;
@@ -29,7 +34,7 @@ public class BubbleSort {
 
 
 
-	public void printArray(int[] arr) {
+	public static void printArray(int[] arr) {
 		// TODO Auto-generated method stub
 		int i; 
 		for (i=0; i<arr.length; ++i)
