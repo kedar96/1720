@@ -5,7 +5,7 @@ public class Player {
 	private String name;
 	private char lastName[];
 	private Integer age;
-	private int jerseyNo;
+	private Integer jerseyNo;
 	
 	public void kicks()
 	{
