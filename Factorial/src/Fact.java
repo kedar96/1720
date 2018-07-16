@@ -11,13 +11,10 @@ public class Fact {
 		this.num = num;
 	}
 
-	public void factorial() {
+	public int factorial(int num) {
 		// TODO Auto-generated method stub
-		int fact = 1;
-		  for(int i=this.num;i>0;i--)
-		  {    
-		      fact=fact*i;    
-		  }
-		  System.out.println("Factorial of "+this.num+" is: "+fact);
+		  if (num == 0)
+	          return 1;
+	        return num*factorial(num-1);
 	}	  
 }
