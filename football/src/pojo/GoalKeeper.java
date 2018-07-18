@@ -26,4 +26,10 @@ public class GoalKeeper extends Player {
 	{
 		System.out.println("Goalkeeper catches the football");
 	}
+	
+	@Override
+	public void calculateMatchesPlayed()
+	{
+		System.out.println("no of matches played");
+	}
 }

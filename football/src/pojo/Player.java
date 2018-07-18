@@ -1,6 +1,6 @@
 package pojo;
 
-public class Player {
+public abstract class Player {
 	
 	private String name;
 	private char lastName[];
@@ -11,6 +11,8 @@ public class Player {
 	{
 		System.out.println("player kicks the football");
 	}
+	
+	public abstract void calculateMatchesPlayed();
 	
 	public Player()
 	{
