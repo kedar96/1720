@@ -8,6 +8,8 @@ public abstract class Staff {
 	
 	public Staff() {
 		name=" ";
+		
+		
 	}
 
 	public abstract void calculateSalary();
