@@ -10,7 +10,8 @@ public class App {
 		Staff staff3=new Lecturer();
 		Lecturer staff4=new Lecturer();
 		staff3.calculateSalary();
-		
+		ContractTeacher staff5=new ContractTeacher();
+		staff5.calculatePay();
 	}
 
 }

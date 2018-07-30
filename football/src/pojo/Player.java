@@ -2,10 +2,10 @@ package pojo;
 
 public abstract class Player {
 	
-	private String name;
+	protected String name;
 	private char lastName[];
-	private Integer age;
-	private Integer jerseyNo;
+	protected Integer age;
+	protected Integer jerseyNo;
 	
 	public void kicks()
 	{

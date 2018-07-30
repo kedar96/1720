@@ -1,6 +1,6 @@
 package pojo;
 
-public class Manager {
+public class Manager{
 
 	private String firstName;
 	private int age;
