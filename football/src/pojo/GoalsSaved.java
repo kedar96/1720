@@ -1,7 +1,7 @@
 package pojo;
 
 public interface GoalsSaved {
-	public abstract void getgoalsSaved();
+	public void getgoalsSaved();
 	
-	public abstract void setGoalsSaved(String name, Integer matchesPlayed, Integer saves);
+	public void setGoalsSaved(String name, Integer matchesPlayed, Integer saves);
 }
