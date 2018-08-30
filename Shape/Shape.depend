@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1535300988 source:/home/kedar/Desktop/codeblocksWorkspace/Shape/src/Rectangle.cpp
+	"Rectangle.h"
+
+1535301471 /home/kedar/Desktop/codeblocksWorkspace/Shape/include/Rectangle.h
+	"TwoD.h"
+
+1535301516 /home/kedar/Desktop/codeblocksWorkspace/Shape/include/TwoD.h
+	"Shape.h"
+
+1535591486 /home/kedar/Desktop/codeblocksWorkspace/Shape/include/Shape.h
+
+1535301302 source:/home/kedar/Desktop/codeblocksWorkspace/Shape/src/Shape.cpp
+	"Shape.h"
+
+1535300963 source:/home/kedar/Desktop/codeblocksWorkspace/Shape/src/ThreeD.cpp
+	"ThreeD.h"
+
+1535304044 /home/kedar/Desktop/codeblocksWorkspace/Shape/include/ThreeD.h
+	"Shape.h"
+
+1535300936 source:/home/kedar/Desktop/codeblocksWorkspace/Shape/src/TwoD.cpp
+	"TwoD.h"
+
+1535591413 source:/home/kedar/Desktop/codeblocksWorkspace/Shape/main.cpp
+	<iostream>
+	"Cuboid.h"
+
+1535592226 /home/kedar/Desktop/codeblocksWorkspace/Shape/include/Cuboid.h
+	"ThreeD.h"
+
+1535592161 source:/home/kedar/Desktop/codeblocksWorkspace/Shape/src/Cuboid.cpp
+	"Cuboid.h"
+
